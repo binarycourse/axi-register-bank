@@ -1,5 +1,6 @@
 # Git Ignore for Example Projects
 
+# Vitis (XSDK) Project files
 **.project
 **.cproject
 **.prj
@@ -11,10 +12,16 @@
 IDE.log
 webtalk
 RemoteSystemsTempFiles
-reg_bank_app_system
+
+# Example Project Platform files
 zybo_reg_bank_platform
 
+# Example System Project files
+reg_bank_app_system
+
+# Example Application Project files
 reg_bank_app/Debug
 reg_bank_app/_ide
 
-
+# Vivado Project files
+reg-bank-ex-zybo
